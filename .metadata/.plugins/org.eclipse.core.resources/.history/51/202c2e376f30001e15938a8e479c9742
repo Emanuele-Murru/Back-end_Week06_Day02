@@ -1,0 +1,6 @@
+package Exercises.entitities;
+
+public class User {
+	private String email;
+	private String password;
+}

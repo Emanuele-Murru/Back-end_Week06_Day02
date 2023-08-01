@@ -1,0 +1,28 @@
+package GestionalePrenotazioni.entities;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+import GestionalePrenotazioni.entities.User;
+import GestionalePrenotazioni.entities.Workspaces;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@ToString
+public class Booking {
+	private UUID id;
+	private LocalDate bookingDate;
+	private Workspace workspace;
+	private User user;
+	
+	private LocalDate expiryBookingDate;
+}

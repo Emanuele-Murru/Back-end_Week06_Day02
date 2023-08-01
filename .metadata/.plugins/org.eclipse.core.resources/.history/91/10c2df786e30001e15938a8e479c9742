@@ -1,0 +1,5 @@
+package Exercises.utils;
+
+public enum WorkspaceType {
+
+}

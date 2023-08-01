@@ -1,0 +1,5 @@
+package Exercises.entitities;
+
+public class Booking {
+
+}

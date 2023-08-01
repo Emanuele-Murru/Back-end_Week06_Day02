@@ -1,0 +1,21 @@
+package Exercises.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping
+public class Controllers {
+	@GetMapping("/api/index/{lang}")
+	public String getMessage(@PathVariable String lang) {
+		if (lang.equals("IT")) {
+			return "Messaggio italiano";
+		} else if (lang.equals("EN")) {
+			return "English message";
+		} else {
+			return "This is a default message";
+		}
+	}
+}
