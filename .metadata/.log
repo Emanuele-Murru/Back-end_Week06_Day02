@@ -536,3 +536,9 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:24:17.438
 !MESSAGE Classpath changed for project: Week06_Day02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:27:01.094
+!MESSAGE Classpath changed for project: Week06_Day02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:27:08.083
+!MESSAGE Classpath changed for project: Week06_Day02

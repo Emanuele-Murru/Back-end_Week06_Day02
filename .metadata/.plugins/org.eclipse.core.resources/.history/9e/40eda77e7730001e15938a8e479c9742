@@ -11,13 +11,10 @@ public class Controllers {
 	
 	@GetMapping("/{lang}")
 	public String getMessage(@PathVariable String lang) {
-		
 		if (lang.equals("IT")) {
 			return "Messaggio italiano";
-			
 		} else if (lang.equals("EN")) {
 			return "English message";
-			
 		} else {
 			return "This is a default message";
 		}
